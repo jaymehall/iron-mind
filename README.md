@@ -116,6 +116,7 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 │   │   └── pages/
 
 ---
+```
 
 ## License
 
@@ -127,9 +128,9 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 
 Built with passion for the fitness community and curiosity for what's possible at the intersection of artificial intelligence and human strength.
 
-- LinkedIn  
-- GitHub  
-- Website  
+- LinkedIn: https://www.linkedin.com/in/jayme-hall/
+- GitHub: https://github.com/jaymehall/
+- Website: https://the-privacy-dev.netlify.app/
 
 > IronMind.ai is a personal project. Not affiliated with any fitness brand or institution.
 
