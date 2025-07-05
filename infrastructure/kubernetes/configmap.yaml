@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ironmind-config
+  namespace: ironmind
+data:
+  DATABASE_URL: "postgresql://ironmind:ironmind@ironmind-postgres:5432/ironmind"
+  SECRET_KEY: "your-secret-key-here"
+  AWS_REGION: "us-east-1"
+  AWS_S3_BUCKET: "ironmind-images"
+  KAFKA_BOOTSTRAP_SERVERS: "ironmind-kafka:9092" 
