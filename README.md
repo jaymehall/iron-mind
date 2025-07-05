@@ -81,6 +81,9 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 
 ## Folder Structure (Mobile App)
 
+## Folder Structure (Mobile App)
+
+```plaintext
 /iron-mind
 ├── mobile-app/                 # React Native (Expo) mobile app
 │   ├── assets/                 # Images, fonts, icons
@@ -110,8 +113,7 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 │   ├── public/                # Static assets
 │   ├── src/                   # App source
 │   │   ├── components/        # UI and layout components
-│   │   ├── pages/
-
+│   │   └── pages/
 
 ---
 
