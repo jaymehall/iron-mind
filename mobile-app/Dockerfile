@@ -26,8 +26,8 @@ USER expo
 EXPOSE 8081
 
 # Set environment variables
-ENV EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+ENV EXPO_DEVTOOLS_LISTEN_ADDRESS=http://localhost:19002/
 ENV EXPO_TUNNEL_SUBDOMAIN=ironmind
 
 # Start Expo development server
-CMD ["npx", "expo", "start", "--tunnel", "--clear", "--host", "0.0.0.0"] 
+CMD ["npx", "expo", "start", "--tunnel", "--clear"]

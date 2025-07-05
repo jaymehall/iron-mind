@@ -49,9 +49,6 @@ services:
     container_name: ironmind-mobile
     ports:
       - "8081:8081"
-    environment:
-      - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
-      - EXPO_TUNNEL_SUBDOMAIN=ironmind
     volumes:
       - ./mobile-app:/app
       - /app/node_modules
