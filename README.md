@@ -79,43 +79,48 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 
 ---
 
-## Folder Structure (Mobile App)
-
-## Folder Structure (Mobile App)
+## Folder Structure
 
 ```plaintext
 /iron-mind
 ├── mobile-app/                 # React Native (Expo) mobile app
 │   ├── assets/                 # Images, fonts, icons
-│   ├── components/            # Reusable UI components
-│   ├── screens/               # App screens organized by feature
-│   ├── services/              # API, auth, AI, storage, utilities
-│   ├── navigation/            # Navigation setup
-│   ├── store/                 # Redux store and slices
+│   ├── components/             # Reusable UI components
+│   ├── screens/                # App screens organized by feature
+│   ├── services/                # API, auth, AI, storage, utilities
+│   ├── navigation/              # Navigation setup
+│   ├── store/                   # Redux store and slices
 │   ├── App.js
 │   └── package.json
 │
-├── backend/                   # FastAPI backend
-│   ├── app/                   # App core (main, config, DB)
-│   ├── api/                   # API routes (v1)
-│   ├── core/                  # Security and core logic
-│   ├── models/                # DB models
-│   ├── schemas/               # Pydantic schemas
-│   ├── services/              # Business logic
-│   ├── ml/                    # ML modules (chatbot, food recognition)
-│   ├── utils/                 # Helpers and validators
-│   ├── tests/                 # Backend tests
-│   ├── alembic/               # DB migrations
+├── backend/                     # FastAPI backend
+│   ├── app/                     # App core (main, config, DB, API routes)
+│   ├── core/                    # Security and core logic
+│   ├── models/                  # DB models
+│   ├── schemas/                 # Pydantic schemas
+│   ├── services/                # Business logic
+│   ├── ml/                      # ML modules (chatbot, food recognition)
+│   ├── utils/                   # Helpers and validators
+│   ├── tests/                   # Backend tests
+│   ├── alembic/                 # DB migrations
 │   ├── Dockerfile
 │   └── requirements.txt
 │
-├── web-app/                   # Next.js landing/demo site
-│   ├── public/                # Static assets
-│   ├── src/                   # App source
-│   │   ├── components/        # UI and layout components
-│   │   └── pages/
-
----
+├── web-app/                     # Next.js landing/demo site
+│   ├── public/                  # Static assets
+│   └── src/
+│       ├── components/          # UI and layout components
+│       └── pages/
+│
+├── infrastructure/              # Docker and Kubernetes deployment configs
+│   ├── docker/
+│   └── kubernetes/
+│
+├── docs/                        # API and deployment documentation
+│   ├── api/
+│   └── deployment/
+│
+└── docker-compose.yml
 ```
 
 ## License
@@ -132,7 +137,7 @@ Built with passion for the fitness community and curiosity for what's possible a
 
 - LinkedIn: https://www.linkedin.com/in/jayme-hall/
 - GitHub: https://github.com/jaymehall/
-- Website: [https://the-privacy-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
+- Website: [https://jaymehall-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
 
 > IronMind.ai is a personal project. Not affiliated with any fitness brand or institution.
 
