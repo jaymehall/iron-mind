@@ -130,7 +130,7 @@ Built with passion for the fitness community and curiosity for what's possible a
 
 - LinkedIn: https://www.linkedin.com/in/jayme-hall/
 - GitHub: https://github.com/jaymehall/
-- Website: https://the-privacy-dev.netlify.app/
+- Website: [https://the-privacy-dev.netlify.app/](https://jaymehall-dev.netlify.app/)
 
 > IronMind.ai is a personal project. Not affiliated with any fitness brand or institution.
 
