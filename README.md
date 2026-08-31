@@ -79,6 +79,29 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 
 ---
 
+## Architecture
+
+```mermaid
+flowchart LR
+    subgraph Clients
+        MOBILE["Mobile App\n(React Native / Expo)"]
+        WEB["Web Companion\n(Next.js, on Vercel)"]
+    end
+
+    MOBILE -->|"REST, JWT auth"| API["FastAPI Backend\n(on Render)"]
+    WEB -->|"REST"| API
+
+    API --> CHAT["AI Chat Coach\n(LangChain + OpenAI)"]
+    API --> DB[("PostgreSQL")]
+
+    API -->|"meal photo"| QUEUE["Kafka"]
+    QUEUE --> VISION["Food Image Pipeline\n(YOLOv8 / OpenCV\nor Cloud Vision)"]
+    VISION --> USDA["USDA FoodData Central\n(macro mapping)"]
+    VISION --> DB
+
+    API -.orchestrated by.-> K8S["Kubernetes\n(autoscaling)"]
+```
+
 ## Folder Structure
 
 ```plaintext
