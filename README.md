@@ -120,7 +120,9 @@ IronMind.ai is a mobile-first application designed to support amateur bodybuilde
 
 ## License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+[MIT](https://opensource.org/licenses/MIT)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
 
 ---
 
